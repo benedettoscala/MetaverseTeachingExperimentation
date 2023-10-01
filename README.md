@@ -36,3 +36,6 @@ Nel corso di questo esperimento, abbiamo utilizzato i seguenti strumenti:
 1. Scarica il progetto unity presente nella cartella VrChatLessonProject.
 2. Segui la guida presente al link: https://creators.vrchat.com/sdk/ per fare il setup dell'ambiente di sviluppo di VrChat fino allo step 0 (step 0 incluso)
 3. TODO
+
+## Author
+* **Benedetto Scala** - [benedettoscala](https://github.com/benedettoscala)
