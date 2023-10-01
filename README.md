@@ -6,6 +6,10 @@ Questo progetto universitario esplora l'uso del metaverso come strumento innovat
 
 Il fine di questa repository è quello di preparare un lab package al fine di facilitare le repliche dell'esperimento.
 
+<p align = "center">
+  <img src = "Blobs/vrchatlezione.png?raw=true" width = "800" heigth = "600">
+</p>
+
 # Contenuto della Repository
 
 - **QuestionnaireAndQuestions**: Questa cartella contiene i questionari e le domande somministrate ai partecipanti. Sono disponibili sia in formato PDF compilato che in formato .tex non compilato.
