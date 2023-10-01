@@ -22,7 +22,7 @@ Il fine di questa repository è quello di preparare un lab package al fine di fa
   - Risposte dettagliate all'UES-SF
   - Risposte aggregate per ogni dimensione dell'UES-SF.
 
-#Tools Utilizzati
+# Tools Utilizzati
 
 Nel corso di questo esperimento, abbiamo utilizzato i seguenti strumenti:
 - R: Linguaggio di programmazione dedicato all'analisi statistica dei risultati.
