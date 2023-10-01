@@ -1,0 +1,159 @@
+\documentclass{article}
+\usepackage{enumitem}
+\usepackage{amsmath, amssymb}
+\usepackage[a4paper,margin=1in]{geometry}
+
+\begin{document}
+
+\section*{Domande post-test}
+
+\begin{enumerate}[label=\textbf{Domanda \arabic*.}]
+
+\item Qual è la differenza fondamentale tra un qubit e un bit classico?
+\begin{enumerate}[label=\Alph*.]
+\item Un qubit può rappresentare più di due stati alla volta
+\item Un qubit può essere in una sovrapposizione di stati 0 e 1
+\item Un qubit può memorizzare più informazioni di un bit classico quando misurato
+\item Un qubit è più veloce di un bit classico nell'eseguire calcoli
+\end{enumerate}
+Risposta corretta: B
+
+\item Come viene rappresentato un cbit \(|1\rangle\) in notazione vettoriale?
+\begin{enumerate}[label=\Alph*.]
+    \item \( \begin{pmatrix} 0 \\ 1 \end{pmatrix} \)
+    \item \( \begin{pmatrix} 1 \\ 1 \end{pmatrix} \)
+    \item \( \begin{pmatrix} 1 \\ 0 \end{pmatrix} \)
+    \item \( \begin{pmatrix} 0 \\ 0 \end{pmatrix} \)
+\end{enumerate}
+Risposta corretta: A
+
+\item Considerando il contesto delle operazioni quantistiche, quale delle seguenti trasformazioni su un qubit è considerata completamente reversibile?
+    \begin{enumerate}[label=\Alph*.]
+        \item Applicazione di una porta C-NOT
+        \item Applicazione di una porta C-NOT seguita da una porta HADAMARD
+        \item Applicazione di una porta bit-flip (negazione)
+        \item Tutte le precedenti
+    \end{enumerate}
+    Risposte corrette: D
+
+\item Qual è la dimensione del vettore di uno stato prodotto di \( n \) cbit?
+\begin{enumerate}[label=\Alph*.]
+    \item \( n \)
+    \item \( 2^n \)
+    \item \( n^2 \)
+    \item \( 2n \)
+\end{enumerate}
+Risposta corretta: B
+
+\item Qual è il principale vincolo che ha un qubit 
+\begin{pmatrix}
+    a \\ b
+\end{pmatrix}?
+\begin{enumerate}[label=\Alph*.]
+\item \(a^2 + b^2 = 1\)
+\item \(|a|^2 + |b|^2 = 1\)
+\item \(a + b = 1\)
+\item \(|a| + |b| = 1\)
+\end{enumerate}
+Risposta corretta: B
+
+\item Considerando l'operatore CNOT nel quantum computing, quale delle seguenti affermazioni è vera?
+\begin{enumerate}[label=\Alph*.]
+\item Flippa il qubit target se e solo se il qubit di controllo è \(|0\rangle\).
+\item Modifica il qubit di controllo basandosi sullo stato del qubit target.
+\item Flippa il qubit target se e solo se il qubit di controllo è \(|1\rangle\), mentre il qubit di controllo rimane invariato.
+\item Se il qubit di controllo è \(|1\rangle\), entrambi i qubit, di controllo e target, vengono flippati.
+\end{enumerate}
+Risposta corretta: C
+
+\item Considerando un qubit il cui stato è rappresentato come
+\begin{pmatrix}
+    \sqrt{3}/2 \\ 1/2
+    \end{pmatrix}, quale delle seguenti affermazioni descrive correttamente le probabilità di collasso del qubit quando viene misurato?
+\begin{enumerate}[label=\Alph*.]
+\item Ha una probabilità di \(3/4\) di collassare a \(|0\rangle\) e una probabilità di \(1/4\) di collassare a \(|1\rangle\).
+\item Ha una probabilità di \(1/2\) di collassare a \(|0\rangle\) e una probabilità di \(\sqrt{3}/2\) di collassare a \(|1\rangle\).
+\item Ha una probabilità di \(\sqrt{3}/2\) di collassare a \(|0\rangle\) e una probabilità di \(1/2\) di collassare a \(|1\rangle\).
+\item Ha una probabilità di \(2/3\) di collassare a \(|0\rangle\) e una probabilità di \(1/3\) di collassare a \(|1\rangle\).
+\end{enumerate}
+Risposta corretta: A
+
+
+\item Quale delle seguenti matrici rappresenta l'operatore CNOT?
+\begin{enumerate}[label=\Alph*.]
+    \item \(\begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \end{pmatrix}\)
+    \item \(\begin{pmatrix} 0 & 1 & 0 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix}\)
+    \item \(\begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \\ 0 & 1 & 0 & 0 \end{pmatrix}\)
+    \item \(\begin{pmatrix} 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 \end{pmatrix}\)
+\end{enumerate}
+Risposta corretta: A 
+
+\item Qual è l'effetto dell'operazione "Constant Zero" su un bit?
+\begin{enumerate}[label=\Alph*.]
+    \item Lo setta a 1
+    \item Lo setta a 0
+    \item Lo inverte
+    \item Lo lascia inalterato
+\end{enumerate}
+Risposta corretta: B
+
+\item Cos'è la "quantum supremacy"?
+\begin{enumerate}[label=\Alph*.]
+    \item La dimostrazione che i computer quantistici possono risolvere tutti i problemi più velocemente dei computer classici
+    \item L'asserzione che la meccanica quantistica è superiore alla meccanica classica
+    \item Il punto in cui un computer quantistico esegue un compito specifico in modo ineguagliabile e più velocemente da un computer classico
+    \item La teoria secondo cui tutti i computer futuri saranno quantistici
+\end{enumerate}
+Risposta corretta: C
+
+
+
+\item Dato lo stato \(|01\rangle\), quale delle seguenti rappresentazioni in forma di vettore colonna è corretta?
+\begin{enumerate}[label=\Alph*.]
+    \item \(\begin{pmatrix} 1 \\ 0 \\ 0 \\ 0 \end{pmatrix}\)
+    \item \(\begin{pmatrix} 0 \\ 1 \\ 0 \\ 0 \end{pmatrix}\)
+    \item \(\begin{pmatrix} 0 \\ 0 \\ 1 \\ 0 \end{pmatrix}\)
+    \item \(\begin{pmatrix} 0 \\ 0 \\ 0 \\ 1 \end{pmatrix}\)
+\end{enumerate}
+Risposta corretta: B
+
+\item Che cos'è il prodotto tensoriale tra due vettori?
+\begin{enumerate}[label=\Alph*.]
+    \item La somma dei vettori
+    \item Il prodotto scalare dei vettori
+    \item Un nuovo vettore ottenuto moltiplicando ogni elemento del primo vettore con ogni elemento del secondo
+    \item La differenza tra i vettori
+\end{enumerate}
+Risposta corretta: C
+
+\item Quale delle seguenti matrici rappresenta l'operatore Hadamard (H)?
+\begin{enumerate}[label=\Alph*.]
+    \item \(\frac{1}{\sqrt{2}} \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}\)
+    \item \(\frac{1}{2} \begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}\)
+    \item \(\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}\)
+    \item \(\frac{1}{\sqrt{2}} \begin{pmatrix} 1 & -1 \\ -1 & 1 \end{pmatrix}\)
+\end{enumerate}
+Risposta corretta: A
+
+\item Nel contesto del calcolo quantistico, quale porta è fondamentale come il NAND nel calcolo classico?
+\begin{enumerate}[label=\Alph*.]
+    \item Porta di Hadamard
+    \item Porta di Pauli-X
+    \item Porta CNOT
+    \item Porta Toffoli
+\end{enumerate}
+Risposta corretta: C
+
+
+\item Cosa significa quando un qubit è in uno stato di sovrapposizione?
+\begin{enumerate}[label=\Alph*.]
+    \item Il qubit è sia in stato \( |0\rangle \) che \( |1\rangle \)
+    \item Il qubit è in uno stato indefinito
+    \item Il qubit è in uno stato di errore
+    \item Il qubit è in uno stato di entanglement
+\end{enumerate}
+Risposta corretta: A
+\end{enumerate}
+
+
+\end{document}
