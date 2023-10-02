@@ -1,4 +1,4 @@
-# Esperimento del Metaverso nella Didattica 🌐
+# Esperimento: Metaverso nella Didattica 🌐
 
 ## 📌 Introduzione
 
